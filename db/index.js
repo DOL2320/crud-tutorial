@@ -7,7 +7,7 @@ mongoose
     {
       useUnifiedTopology: true,
       useNewUrlParser: true,
-      directConnection: true,
+      // directConnection: true,
     }
   )
   .then(() => console.log("Database connected"))
